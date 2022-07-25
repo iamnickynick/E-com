@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>ShopCart</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400&family=Montserrat:ital,wght@0,300;0,400;0,700;0,900;1,600&family=Open+Sans:wght@300&family=Sacramento&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="images/favicon.ico">
+</head>
+
+<body>
+
+  <section id="title" class="colored-section">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand " href=""><span class="navtitle">ShopCart</span></a>
+        <button class="navbar-toggler  MenuItems menu-icon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav ms-auto ">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="products.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">ContactUs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="product-details.html">Details</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cart.html"><img src="images/cart.png" width="20px"></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="row">
+        <div class="col-lg-6 ">
+          <h1 class="big-h">Your everyday new style!<br>
+            <button type="button" class="btn explore-buttons"><a href="#bestSeller">Explore Now </a></button>
+          </h1>
+        </div>
+        <div class="col-lg-6">
+          <img class="nav-img" src="images/image1.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--__________________________________________________-recommended__________________________________________________- -->
+<section id="recommended">
+  <h3 class="title"> </h3>
+  <div class="container">
+      <div class="item">
+        <img class="cat-img" src=" images/category-1.jpg" >
+      </div>
+      <div class="item">
+        <img class="cat-img" src=" images/category-2.jpg" >
+      </div>
+      <div class="item">
+        <img class="cat-img" src=" images/category-3.jpg" >
+      </div>
+    </div>
+</section>
+  <!-- __________________________________________________-bestSeller__________________________________________________- -->
+  <section id="bestSeller">
+    <h3 class="title">  BestSellers</h3>
+<div class="row">
+    <div class="item col-4 col-lg-6">
+     <img class="cat-img" src="images/product-1.jpg" >
+     <h4>Red Printed T-shirt</h4>
+     <div class="rating">
+       <i class="fa-solid fa-star"></i>
+       <i class="fa-solid fa-star"></i>
+       <i class="fa-solid fa-star"></i>
+       <i class="fa-solid fa-star"></i>
+       <i class="fa-thin fa-star"></i>
+     </div>
+     <p>$50.00</p>
+   </div>
+   <div class="item col-4 col-lg-6">
+     <img class="cat-img" src="images/product-2.jpg" >
+     <h4>Hrx Sportz Shoes</h4>
+     <div class="rating">
+       <i class="fa-solid fa-star"></i>
+       <i class="fa-solid fa-star"></i>
+       <i class="fa-solid fa-star"></i>
+       <i class="fa-solid fa-star"></i>
+       <i class="fa-thin fa-star"></i>
+     </div>
+     <p>$80.00</p>
+   </div>
+   <div class="item col-4 col-lg-6">
+     <img class="cat-img" src="images/product-3.jpg" >
+     <h4>Track-pant</h4>
+     <div class="rating">
+       <i class="fa-solid fa-star"></i>
+       <i class="fa-solid fa-star"></i>
+       <i class="fa-solid fa-star"></i>
+       <i class="fa-duotone fa-star-sharp-half"></i>
+       <i class="fa-thin fa-star"></i>
+     </div>
+     <p>$90.00</p>
+   </div>
+   <div class="item col-4 col-lg-6">
+     <img class="cat-img" src="images/product-4.jpg" >
+     <h4>Polo t-shirt</h4>
+     <div class="rating">
+       <i class="fa-solid fa-star"></i>
+       <i class="fa-solid fa-star"></i>
+       <i class="fa-solid fa-star"></i>
+       <i class="fa-thin fa-star"></i>
+       <i class="fa-thin fa-star"></i>
+     </div>
+     <p>$40.00</p>
+   </div>
+ </div>
+
+    </section>
+<!-- -new Arrivals -->
+<section id="newArrivals">
+  <div class="newArrivals">
+    <h3 class="title">New Arrivals</h3>
+    <div class="row">
+        <div class="item col-4 col-lg-6">
+         <img class="cat-img" src="images/product-5.jpg" >
+         <h4>Nike Air 400</h4>
+         <div class="rating">
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+         </div>
+         <p>$80.00</p>
+       </div>
+       <div class="item col-4 col-lg-6">
+         <img class="cat-img" src="images/product-6.jpg" >
+         <h4>Puma Summer T</h4>
+         <div class="rating">
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+         </div>
+         <p>$47.00</p>
+       </div>
+       <div class="item col-4 col-lg-6">
+         <img class="cat-img" src="images/product-7.jpg" >
+         <h4>Hrx Socks(4-pack)</h4>
+         <div class="rating">
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-duotone fa-star-sharp-half"></i>
+           <i class="fa-thin fa-star"></i>
+           <i class="fa-thin fa-star"></i>
+         </div>
+         <p>$10.00</p>
+       </div>
+       <div class="item col-4 col-lg-6">
+         <img class="cat-img" src="images/product-8.jpg" >
+         <h4>G-shock 765</h4>
+         <div class="rating">
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+         </div>
+         <p>$40.00</p>
+       </div>
+       <div class="item col-4 col-lg-6">
+         <img class="cat-img" src="images/product-9.jpg" >
+         <h4>G-shock 345</h4>
+         <div class="rating">
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-thin fa-star"></i>
+           <i class="fa-thin fa-star"></i>
+         </div>
+         <p>$30.00</p>
+       </div>
+       <div class="item col-4 col-lg-6">
+         <img class="cat-img" src="images/product-10.jpg" >
+         <h4>Sparx casual</h4>
+         <div class="rating">
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-thin fa-star"></i>
+           <i class="fa-thin fa-star"></i>
+         </div>
+         <p>$50.00</p>
+       </div>
+       <div class="item col-4 col-lg-6">
+         <img class="cat-img" src="images/product-11.jpg" >
+         <h4>Adidas 700s</h4>
+         <div class="rating">
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-thin fa-star"></i>
+           <i class="fa-thin fa-star"></i>
+         </div>
+         <p>$74.00</p>
+       </div>
+       <div class="item col-4 col-lg-6">
+         <img class="cat-img" src="images/product-12.jpg" >
+         <h4>Nike St 86</h4>
+         <div class="rating">
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-thin fa-star"></i>
+         </div>
+         <p>$76.00</p>
+       </div>
+
+     </div>
+  </div>
+
+</section>
+  <!-- ___________________________________________________offers__________________________________________________________ -->
+  <div class="offer">
+        <div class="container">
+
+              <div class="item1 offer-col">
+                <img src="images/exclusive.png" class="offer-img">
+              </div>
+              <div class="item2 offer-dis">
+                <p>Exclusively Available on finishing 3rd coding Question </p>
+                <h1>FitBit 8</h1>
+                <small>Manage stress with an innovative EDA <br>sensor and put heart health first with an ECG app bron this advanced health smartwatch.</small>
+                <a href="#" class='btn'>Buy Now &#8594;</a>
+
+        </div>
+          </div>
+          </div>
+<!--  tstimonial-->
+<section id="testimonial">
+  <div class="testimonial">
+  <div class="small-container">
+    <div class="row">
+        <div class="col-lg-4">
+          <i class="fa-solid fa-quote-left"></i>
+          <h5>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci </h5>
+         <div class="rating">
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+         </div>
+         <img class="cat-img" src="images/user-1.png" >
+         <p>Nicky Zay</p>
+       </div>
+       <div class="  col-lg-4">
+         <i class="fa-solid fa-quote-left"></i>
+         <h5>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci </h5>
+        <div class="rating">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <img class="cat-img" src="images/user-2.png" >
+        <p>obiWan Kenobi</p>
+      </div>
+      <div class=" col-lg-4">
+        <i class="fa-solid fa-quote-left"></i>
+        <h5>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci </h5>
+       <div class="rating">
+         <i class="fa-solid fa-star"></i>
+         <i class="fa-solid fa-star"></i>
+         <i class="fa-solid fa-star"></i>
+         <i class="fa-solid fa-star"></i>
+         <i class="fa-solid fa-star"></i>
+       </div>
+       <img class="cat-img" src="images/user-3.png" >
+       <p>Padme Amidala</p>
+     </div>
+         </div>
+      </div>
+      </section>
+<!-- brands -->
+<section id="brands">
+  <div class="brands">
+      <div class="row">
+          <div class="col-2">
+             <img src="images/logo-godrej.png">
+          </div>
+          <div class="col-2">
+             <img src="images/logo-oppo.png">
+          </div>
+          <div class="col-2">
+             <img src="images/logo-coca-cola.png">
+          </div>
+          <div class="col-2">
+             <img src="images/logo-paypal.png">
+          </div>
+          <div class="col-2">
+             <img src="images/logo-philips.png">
+          </div>
+
+      </div>
+  </div>
+</section>
+<!-- footer -->
+<footer id="footer" class="white-section">
+  <i class="fa-brands fa-twitter footer-icons"></i>
+  <i class="fa-brands fa-facebook footer-icons"></i>
+  <i class="fa-brands fa-instagram footer-icons"></i>
+  <i class="fa-solid fa-envelope footer-icons"></i>
+  <p>© 2022-2027 Shopcart
+    DipeshMishra
+  </p>
+</footer>
+    <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
